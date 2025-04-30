@@ -22,10 +22,15 @@ End the program
 #Program to swap two values.
 #Developed by: HARIKRISHNAN.S
 #RegisterNumber: 212224100020
+
 a,b = int(input()), int(input())
+
 temp = a
+
 a = b
+
 b = temp
+
 print(f"Swapped values are: {a} {b}")
 
 ## RESULT:
